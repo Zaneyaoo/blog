@@ -1,79 +1,156 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
-paginate: 5
+# 网站地址 | 域名
+baseURL: "https://www.zaneyao.com/"
+
+# 网站标题 - 用于浏览器标签页、搜索引擎和其他地方显示的网站标题
+title: Zaneyao文库
+
+# 每页显示文章数量
+pagination.pagerSize: 5
+
+# 网站主题
 theme: PaperMod
 
+# robots.txt配置，利于SEO、搜索引擎优化
 enableRobotsTXT: true
+
+# 发布草稿文章时是否构建
 buildDrafts: false
+
+# 发布未来日期的文章时是否构建
 buildFuture: false
+
+# 发布过期文章时是否构建
 buildExpired: false
 
+# 网站压缩配置
 minify:
-  disableXML: true
-  minifyOutput: true
+  disableXML: true      # 是否禁用XML压缩
+  minifyOutput: true    # 是否启用压缩输出
 
+# 其他配置
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
+  # 网站环境设置，通常用于启用分析工具（如 Google Analytics）等
+  env: production  # 设置为 'production' 启用 Google Analytics 等功能
+  
+  # 默认网站标题，通常用于页面的 meta 标记等
+  title: Zaneyao文库
+  
+  # 默认网站作者
+  author: Zaneyao
+
+  # 网站描述，用于 SEO 优化和社交媒体分享时的 meta 标签
+  description: 恩典为王，分享生命中的感动。
+  
+  # 网站关键词，用于 SEO 优化
+  keywords:
+  - Zaneyao
+  - 文库
+  - 分享
+  - 感动
+
+  # OpenGraph 和 Twitter Card 配置的图片路径（例如分享时显示的缩略图）
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+
+  # 自定义日期格式化方式
+  DateFormat: "2002年1月3日"
+
+  # 默认主题模式（暗黑 | 日光），'auto' 表示根据系统主题自动切换
+  defaultTheme: auto  # 可选: 'dark', 'light', 'auto'
+  
+  # 是否允许用户切换主题模式
   disableThemeToggle: false
 
+  # 是否在页面显示阅读时间
   ShowReadingTime: true
+  
+  # 是否在页面显示分享按钮
   ShowShareButtons: true
+  
+  # 是否在文章页面显示上一篇和下一篇文章导航链接
   ShowPostNavLinks: true
+  
+  # 是否显示面包屑导航
   ShowBreadCrumbs: true
+  
+  # 是否启用代码复制按钮
   ShowCodeCopyButtons: false
+  
+  # 是否显示文章字数
   ShowWordCount: true
+  
+  # 是否在分类和标签列表页面显示 RSS 按钮
   ShowRssButtonInSectionTermList: true
+  
+  # 是否使用 Hugo 内置的目录结构（ToC）
   UseHugoToc: true
+  
+  # 是否禁用首页的第一个特殊文章展示
   disableSpecial1stPost: false
+  
+  # 是否禁用页面滚动到顶部按钮
   disableScrollToTop: false
+  
+  # 是否启用评论功能
   comments: false
+  
+  # 是否隐藏页面元数据
   hidemeta: false
+  
+  # 是否隐藏文章摘要
   hideSummary: false
+  
+  # 是否在页面显示目录（ToC）
   showtoc: false
+  
+  # 是否展开目录（ToC）在页面加载时
   tocopen: false
 
+  # 站点的静态资源配置
   assets:
-    # disableHLJS: true # to disable highlight.js
+    # 是否禁用 Highlight.js（语法高亮）
+    # disableHLJS: true
+
+    # 是否禁用文件指纹（文件名哈希值）
     # disableFingerprinting: true
+
+    # 站点图标（favicon）
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
+
+    # Apple touch 图标
     apple_touch_icon: "<link / abs url>"
+
+    # Safari pinned tab 图标
     safari_pinned_tab: "<link / abs url>"
 
+  # 导航标签
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "Home"          # 导航标签显示文本
+    icon: /apple-touch-icon.png  # 导航图标路径
+    iconHeight: 35         # 导航图标的高度
 
-  # profile-mode
+  # profile-mode配置
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: false  # 是否启用 profile 模式，显示个人资料页面
     title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    subtitle: "This is subtitle"  # 个人资料页面的副标题
+    imageUrl: "<img location>"    # 个人头像的图片路径
+    imageWidth: 120   # 个人头像的宽度
+    imageHeight: 120  # 个人头像的高度
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
+      - name: Posts    # 按钮名称
+        url: posts    # 按钮链接
       - name: Tags
         url: tags
 
-  # home-info mode
+  # 首页显示信息
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi there \U0001F44B"  # 首页欢迎标题
+    Content: Welcome to my blog   # 首页欢迎内容
 
+  # 社交媒体图标链接配置
   socialIcons:
     - name: x
       url: "https://x.com/"
@@ -82,41 +159,45 @@ params:
     - name: github
       url: "https://github.com/"
 
+  # 网站分析工具配置
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc"  # Google 网站验证标签
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc"  # Bing 网站验证标签
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc"  # Yandex 网站验证标签
 
+  # 封面图片配置，隐藏显示在不同地方的封面
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true  # 隐藏封面（不显示）
+    hiddenInList: true  # 在文章列表页面隐藏封面
+    hiddenInSingle: true  # 在单篇文章页面隐藏封面
 
+  # 文章编辑链接配置，提供文章在 GitHub 上的编辑链接
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    Text: "Suggest Changes"  # 编辑链接显示的文字
+    appendFilePath: true    # 是否将文件路径附加到编辑链接
 
-  # for search
-  # https://fusejs.io/api/options.html
+  # 搜索功能配置（Fuse.js 配置）
   fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+    isCaseSensitive: false      # 搜索时是否区分大小写
+    shouldSort: true            # 是否启用排序
+    location: 0                 # 搜索起始位置
+    distance: 1000              # 允许的最大搜索距离
+    threshold: 0.4              # 搜索的相似度阈值
+    minMatchCharLength: 0       # 最少匹配字符长度
+    limit: 10                   # 最大返回结果数
+    keys: ["title", "permalink", "summary", "content"]  # 搜索字段
+
+# 网站导航菜单配置
 menu:
   main:
     - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+      name: categories  # 菜单项显示文本
+      url: /categories/  # 菜单项链接
+      weight: 10         # 菜单项的权重（数字越大，显示越靠后）
     - identifier: tags
       name: tags
       url: /tags/
@@ -125,13 +206,16 @@ menu:
       name: example.org
       url: https://example.org
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+
+# 语法高亮配置
+pygmentsUseClasses: true  # 是否使用 CSS 类来进行语法高亮
+
+# 标记语言相关配置
 markup:
   highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    noClasses: false  # 是否禁用使用 CSS 类来标记高亮的代码块
+    # anchorLineNos: true  # 是否为代码行号添加锚点
+    # codeFences: true  # 是否启用代码块语法
+    # guessSyntax: true  # 是否根据代码内容自动推断语法
+    # lineNos: true  # 是否显示代码行号
+    # style: monokai  # 高亮样式
