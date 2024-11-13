@@ -1,4 +1,15 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "static",
+  "userIgnoreFilters": [
+    "public/",
+    "archetypes/",
+    "assets/",
+    "data/",
+    "i18n/",
+    "layouts/",
+    "themes/"
+  ]
 }
