@@ -114,15 +114,15 @@ params:
     # disableFingerprinting: true
 
     # 站点图标（favicon）
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
+    favicon: "/imgs/icons/bible.ico"
+    favicon16x16: "/imgs/icons/bible_16x16.png"
+    favicon32x32: "/imgs/icons/bible_32x32.png"
 
     # Apple touch 图标
-    apple_touch_icon: "<link / abs url>"
+    apple_touch_icon: "/imgs/icons/bible.png"
 
     # Safari pinned tab 图标
-    safari_pinned_tab: "<link / abs url>"
+    safari_pinned_tab: "/imgs/icons/bible.png"
 
   # 导航标签
   label:
@@ -132,13 +132,13 @@ params:
 
   # profile-mode配置
   profileMode:
-    enabled: false  # 是否启用 profile 模式，显示个人资料页面
-    title: ExampleSite
-    subtitle: "This is subtitle"  # 个人资料页面的副标题
-    imageUrl: "<img location>"    # 个人头像的图片路径
+    enabled: true  # 是否启用 profile 模式，显示个人资料页面
+    title: Zaneyao文库
+    subtitle: "分享生命中的感动"  # 个人资料页面的副标题
+    imageUrl: "/imgs/avatar.jpg"    # 个人头像的图片路径
     imageWidth: 120   # 个人头像的宽度
     imageHeight: 120  # 个人头像的高度
-    imageTitle: my image
+    imageTitle: ''
     buttons:
       - name: Posts    # 按钮名称
         url: posts    # 按钮链接
