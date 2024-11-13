@@ -46,7 +46,7 @@ params:
   # 首页显示的区块
   mainSections:
   - posts
-  - blog
+  - songs
   - docs
 
   # 默认网站标题，通常用于页面的 meta 标记等
@@ -149,7 +149,7 @@ params:
 
   # profile-mode配置
   profileMode:
-    enabled: false  # 是否启用 profile 模式，显示个人资料页面
+    enabled: true  # 是否启用 profile 模式，显示个人资料页面
     title: Zaneyao文库
     subtitle: "分享生命中的感动"  # 个人资料页面的副标题
     imageUrl: "/imgs/avatar.jpg"    # 个人头像的图片路径
@@ -159,8 +159,10 @@ params:
     buttons:
       - name: 随笔    # 按钮名称
         url: posts    # 按钮链接
-      - name: 标签
-        url: tags
+      - name: 灵歌
+        url: songs
+      - name: 经文导读
+        url: docs
 
   # 首页显示信息
   homeInfoParams:

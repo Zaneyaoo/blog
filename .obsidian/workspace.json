@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "ca8a73995fefebf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "57d26d8a91bb636e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bad5c598ed03b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/songs/my-dd-blog.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "my-dd-blog"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bbac227024e1aed2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d3d6fef209c79b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8989418c4250271c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "06871a3197b1e7dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "bf3c2e7f059e3b44",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bafd320170686954",
+    "type": "split",
+    "children": [
+      {
+        "id": "57189d3e6839fec3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "055df8c5a5fb8dcd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/songs/my-dd-blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "my-dd-blog 的反向連結"
+            }
+          },
+          {
+            "id": "4fffc4dd7bc3493d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/songs/my-dd-blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "my-dd-blog 的對外連結"
+            }
+          },
+          {
+            "id": "0c06a01a9ae083d4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "e80b5515573dcfae",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/songs/my-dd-blog.md"
+              },
+              "icon": "lucide-list",
+              "title": "my-dd-blog 的大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "7bad5c598ed03b09",
+  "lastOpenFiles": [
+    "public/mv/KUA MUSIC【讓我 - Let Me 】馬永蒂.mp4",
+    "public/mv",
+    "static/mv",
+    "public/KUA MUSIC【讓我 - Let Me 】馬永蒂.mp4",
+    "static/mv/KUA MUSIC【讓我 - Let Me 】馬永蒂.mp4",
+    "layouts/_default/single.html",
+    "layouts/_default",
+    "public/songs/my-dd-blog/index.html",
+    "public/songs/my-dd-blog",
+    "static/songs/赞美诗-【將天敞開-Open-Heaven】.mp3",
+    "public/songs/赞美诗-【將天敞開-Open-Heaven】.mp3",
+    "content/songs/my-dd-blog.md"
+  ]
+}
