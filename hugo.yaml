@@ -235,6 +235,9 @@ pygmentsUseClasses: true  # 是否使用 CSS 类来进行语法高亮
 
 # 标记语言相关配置
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false  # 是否禁用使用 CSS 类来标记高亮的代码块
     # anchorLineNos: true  # 是否为代码行号添加锚点
