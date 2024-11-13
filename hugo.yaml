@@ -1,6 +1,10 @@
 # 网站地址 | 域名
 baseURL: "https://www.zaneyao.com/"
 
+# 默认语言设置
+defaultContentLanguage: zh
+languageCode: zh
+
 # 网站标题 - 用于浏览器标签页、搜索引擎和其他地方显示的网站标题
 title: Zaneyao文库
 
@@ -27,11 +31,24 @@ minify:
   disableXML: true      # 是否禁用XML压缩
   minifyOutput: true    # 是否启用压缩输出
 
+# 搜索配置
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
 # 其他配置
 params:
   # 网站环境设置，通常用于启用分析工具（如 Google Analytics）等
   env: production  # 设置为 'production' 启用 Google Analytics 等功能
   
+  # 首页显示的区块
+  mainSections:
+  - posts
+  - blog
+  - docs
+
   # 默认网站标题，通常用于页面的 meta 标记等
   title: Zaneyao文库
   
@@ -52,7 +69,7 @@ params:
   images: ["<link or path of image for opengraph, twitter-cards>"]
 
   # 自定义日期格式化方式
-  DateFormat: "2002年1月3日"
+  DateFormat: "2006年1月3日"
 
   # 默认主题模式（暗黑 | 日光），'auto' 表示根据系统主题自动切换
   defaultTheme: auto  # 可选: 'dark', 'light', 'auto'
@@ -64,7 +81,7 @@ params:
   ShowReadingTime: true
   
   # 是否在页面显示分享按钮
-  ShowShareButtons: true
+  ShowShareButtons: false
   
   # 是否在文章页面显示上一篇和下一篇文章导航链接
   ShowPostNavLinks: true
@@ -132,7 +149,7 @@ params:
 
   # profile-mode配置
   profileMode:
-    enabled: true  # 是否启用 profile 模式，显示个人资料页面
+    enabled: false  # 是否启用 profile 模式，显示个人资料页面
     title: Zaneyao文库
     subtitle: "分享生命中的感动"  # 个人资料页面的副标题
     imageUrl: "/imgs/avatar.jpg"    # 个人头像的图片路径
@@ -140,9 +157,9 @@ params:
     imageHeight: 120  # 个人头像的高度
     imageTitle: ''
     buttons:
-      - name: Posts    # 按钮名称
+      - name: 随笔    # 按钮名称
         url: posts    # 按钮链接
-      - name: Tags
+      - name: 标签
         url: tags
 
   # 首页显示信息
@@ -152,12 +169,12 @@ params:
 
   # 社交媒体图标链接配置
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    # - name: x
+    #   url: "https://x.com/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    # - name: github
+    #   url: "https://github.com/"
 
   # 网站分析工具配置
   analytics:
@@ -176,9 +193,9 @@ params:
 
   # 文章编辑链接配置，提供文章在 GitHub 上的编辑链接
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/zaneyaoo/blog"
     Text: "Suggest Changes"  # 编辑链接显示的文字
-    appendFilePath: true    # 是否将文件路径附加到编辑链接
+    appendFilePath: false    # 是否将文件路径附加到编辑链接
 
   # 搜索功能配置（Fuse.js 配置）
   fuseOpts:
@@ -194,17 +211,21 @@ params:
 # 网站导航菜单配置
 menu:
   main:
+    - identifier: archives
+      name: 历程
+      url: /archives/
+      weight: 1
     - identifier: categories
-      name: categories  # 菜单项显示文本
+      name: 分类  # 菜单项显示文本
       url: /categories/  # 菜单项链接
       weight: 10         # 菜单项的权重（数字越大，显示越靠后）
     - identifier: tags
-      name: tags
+      name: 标签
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: search
+      name: 搜索
+      url: /search/
       weight: 30
 
 # 语法高亮配置
