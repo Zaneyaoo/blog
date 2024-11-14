@@ -1,6 +1,8 @@
 # 网站地址 | 域名
 baseURL: "https://www.zaneyao.com/"
-
+# 设置 Pretty URLs
+canonifyURLs: true
+uglyURLs: false  # 确保生成美观的 URL，不带 .html
 # 默认语言设置
 defaultContentLanguage: zh
 languageCode: zh
@@ -25,6 +27,14 @@ buildFuture: false
 
 # 发布过期文章时是否构建
 buildExpired: false
+
+# 路径相关设置
+permalinks:
+  # 针对不同内容类型的链接格式，例如 posts 类型内容使用的路径格式
+  # posts: /posts/:slug/  # 您可以根据需求修改路径格式
+  posts: /posts/:year/:month/:filename/  # 设置 blog 内容的路径格式
+  docs: /docs/:year/:month/:filename/  # 设置 blog 内容的路径格式
+  songs: /songs/:year/:month/:filename/  # 设置 songs 内容的路径格式
 
 # 网站压缩配置
 minify:
