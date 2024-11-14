@@ -1,5 +1,5 @@
 # 网站地址 | 域名
-baseURL: "https://www.zaneyao.com/"
+baseURL: "https://www.zaneyao.fun/"
 # 设置 Pretty URLs
 canonifyURLs: true
 uglyURLs: false  # 确保生成美观的 URL，不带 .html
