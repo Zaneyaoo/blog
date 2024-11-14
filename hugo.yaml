@@ -11,9 +11,6 @@ hasCJKLanguage: true # 中日韩字符的支持，会影响文章的字数统计
 # 网站标题 - 用于浏览器标签页、搜索引擎和其他地方显示的网站标题
 title: Zaneyao文库
 
-# 网站是否显示标题
-showEdit: false
-
 # 每页显示文章数量
 pagination.pagerSize: 5
 
@@ -208,7 +205,7 @@ params:
     hiddenInSingle: true  # 在单篇文章页面隐藏封面
 
   # 文章编辑链接配置，提供文章在 GitHub 上的编辑链接
-  editPost:
+  editPost: 
     URL: "https://github.com/zaneyaoo/blog"
     Text: "Suggest Changes"  # 编辑链接显示的文字
     appendFilePath: false    # 是否将文件路径附加到编辑链接
