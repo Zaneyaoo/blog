@@ -4,9 +4,11 @@ date: 2024-10-22T02:01:23+08:00
 tags:
   - 保罗
 categories:
-  - 导读
-  - 罗马书
+  - 罗马书导读
 draft: false
+showToc: true  # 是否显示目录，通常用于长文章
+TocOpen: true  # 目录是否默认展开，设置为true时目录在加载时展开
+author: 陈彰耀传道
 ---
 
 ### 背景概览
