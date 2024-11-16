@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/罗马书16章导读.md",
+                "file": "content/docs/knowlifebygospel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "罗马书16章导读"
+              "title": "knowlifebygospel"
             }
           }
         ]
@@ -161,18 +161,27 @@
   },
   "active": "9391e70fb3e2aedb",
   "lastOpenFiles": [
+    "static/在福音中认识生命（太14-13-36）.mp3",
+    "content/guitar/GuitarTutorial/Lesson 0.md",
+    "content/guitar/GuitarTutorial/Lesson 1.md",
+    "static/20241115004034.png",
+    "static/20241115003453.png",
+    "static/20241115002739.png",
+    "static/20241115002417.png",
+    "static/u=2601737773,188904250&fm=253&fmt=auto&app=138&f=JPEG.webp",
+    "static/u=3598647971,2395166889&fm=253&fmt=auto&app=138&f=JPEG.webp",
+    "static/346bd85c6fdf9e1dfaf2c0e3.jfif",
+    "public/categories/实用吉他教程含贝斯/index.xml",
+    "public/categories/实用吉他教程含贝斯/page/1/index.html",
+    "public/categories/实用吉他教程含贝斯/page/1",
+    "public/categories/实用吉他教程含贝斯/page",
+    "public/categories/实用吉他教程含贝斯/index.html",
+    "public/categories/实用吉他教程含贝斯",
+    "public/guitar/guitartutorial/lesson-1/index.html",
+    "public/guitar/guitartutorial/lesson-1",
+    "public/guitar/guitartutorial/course1/index.html",
     "content/docs/罗马书15章导读.md",
     "content/docs/罗马书16章导读.md",
-    "public/docs/罗马书16章导读/index.html",
-    "public/docs/罗马书16章导读",
-    "public/docs/罗马书15章导读/index.html",
-    "public/docs/罗马书15章导读",
-    "public/categories/罗马书/page/1/index.html",
-    "public/categories/罗马书/page/1",
-    "public/categories/罗马书/page",
-    "public/categories/罗马书/index.xml",
-    "public/categories/罗马书/index.html",
-    "public/categories/罗马书",
     "ob_templates/hugo-frontmatter.md",
     "hugo-frontmatter.md.md",
     "ob_templates/hugo-frontmatter.md.md",
