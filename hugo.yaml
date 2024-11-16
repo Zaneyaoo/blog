@@ -53,7 +53,8 @@ outputs:
 params:
   # 网站环境设置，通常用于启用分析工具（如 Google Analytics）等
   env: production  # 设置为 'production' 启用 Google Analytics 等功能
-  
+  pwa: true
+  customCSS: ["css/custom.css"] # 记载自定义css文件
   # 首页显示的区块
   mainSections:
   - posts
@@ -155,7 +156,7 @@ params:
   # 导航标签
   label:
     text: "Home"          # 导航标签显示文本
-    icon: /apple-touch-icon.png  # 导航图标路径
+    icon: /imgs/icons/bible.png  # 导航图标路径
     iconHeight: 35         # 导航图标的高度
 
   # profile-mode配置

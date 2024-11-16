@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/knowlifebygospel.md",
+                "file": "content/docs/romans16byzaneyao.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "knowlifebygospel"
+              "title": "romans16byzaneyao"
             }
           }
         ]
@@ -161,27 +161,27 @@
   },
   "active": "9391e70fb3e2aedb",
   "lastOpenFiles": [
+    "public/sw.js",
+    "public/mv",
     "public/index.xml",
     "public/index.json",
-    "public/tags/保罗/page/1/index.html",
+    "public/search/index.html",
+    "public/search",
+    "public/docs/2017/10/knowlifebygospel/index.html",
     "public/tags/马太福音/page/1/index.html",
-    "public/tags/马太福音/page/1",
-    "public/tags/保罗/page/1",
-    "public/tags/保罗/index.xml",
-    "public/tags/马太福音/index.xml",
-    "public/tags/马太福音/index.html",
-    "public/tags/马太福音/page",
-    "public/tags/保罗/index.html",
-    "static/imgs/20241115002417.png",
+    "public/docs/2024/11/romans16byzaneyao/index.html",
+    "public/tags/保罗/page/1/index.html",
+    "public/docs/2024/10/romans15byzaneyao/index.html",
     "public/imgs/icons/bible_32x32.png",
     "public/imgs/icons/bible_16x16.png",
     "public/imgs/icons/bible.png",
     "public/imgs/u=3598647971,2395166889&fm=253&fmt=auto&app=138&f=JPEG.webp",
-    "public/imgs/20241115004034.png",
     "public/imgs/u=2601737773,188904250&fm=253&fmt=auto&app=138&f=JPEG.webp",
     "public/imgs/avatar.jpg",
+    "public/imgs/20241115004034.png",
     "public/imgs/20241115003453.png",
     "public/imgs/20241115002739.png",
+    "public/imgs/20241115002417.png",
     "content/docs/knowlifebygospel.md",
     "content/guitar/GuitarTutorial/Lesson 0.md",
     "content/guitar/GuitarTutorial/Lesson 1.md",
