@@ -53,7 +53,6 @@ outputs:
 params:
   # 网站环境设置，通常用于启用分析工具（如 Google Analytics）等
   env: production  # 设置为 'production' 启用 Google Analytics 等功能
-  pwa: true
   customCSS: ["css/custom.css"] # 记载自定义css文件
   # 首页显示的区块
   mainSections:
