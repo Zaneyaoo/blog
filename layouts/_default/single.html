@@ -40,7 +40,7 @@
     <!-- 替换代码 -->
     {{ $content := .Content }}
     <!-- 处理音频文件插入 -->
-    {{ $content = replaceRE `!\[\[static/songs/(.*?)\]\]` `<audio controls><source src="/songs/$1" type="audio/mp3">Your browser does not support the audio element.</audio>` $content }}
+    {{ $content = replaceRE `!\[\[static/mp3/(.*?)\]\]` `<audio controls style="width: 100%;"><source src="/mp3/$1" type="audio/mp3">Your browser does not support the audio element.</audio>` $content }}
     <!-- 处理视频文件插入 -->
     {{ $content = replaceRE `!\[\[static/mv/(.*?)\]\]` `<video controls width="100%"><source src="/mv/$1" type="video/mp4">Your browser does not support the video element.</video>` $content }}
     {{ $content | safeHTML }}
