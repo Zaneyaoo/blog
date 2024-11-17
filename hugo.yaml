@@ -110,7 +110,7 @@ params:
   ShowRssButtonInSectionTermList: true
   
   # 是否使用 Hugo 内置的目录结构（ToC）
-  UseHugoToc: true
+  UseHugoToc: false
   
   # 是否禁用首页的第一个特殊文章展示
   disableSpecial1stPost: false
