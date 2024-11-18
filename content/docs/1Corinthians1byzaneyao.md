@@ -8,7 +8,6 @@ categories:
 draft: false
 showToc: true
 TocOpen: true
-author: 陈彰耀传道
 ---
 ## 哥林多前书背景
 

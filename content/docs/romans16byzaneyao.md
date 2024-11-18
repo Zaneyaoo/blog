@@ -8,7 +8,6 @@ categories:
 draft: false
 showToc: true
 TocOpen: true
-author: 陈彰耀传道
 ---
 
 16章的内容包括了保罗的问安（1-16）、
