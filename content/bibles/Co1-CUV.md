@@ -1,12 +1,12 @@
 ---
-title: 哥林多前书（背景与大纲）
+title: 哥林多前书（无章节CUV）
 date: 2024-11-17T22:44:03+08:00
 tags:
   - 保罗书信
 categories:
   - 哥林多前书-CUV
   - 经文大纲
-  - 无章节
+  - 无章节圣经
 draft: false
 showToc: true
 TocOpen: true

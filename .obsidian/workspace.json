@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9fa204c1ae88fa4e",
+        "id": "68c98381d7cee5fb",
         "type": "tabs",
         "children": [
           {
-            "id": "a95cacf2c37bd50f",
+            "id": "8370c49b2cb053e4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -155,24 +155,24 @@
       "templates:插入模板": false
     }
   },
-  "active": "a95cacf2c37bd50f",
+  "active": "8370c49b2cb053e4",
   "lastOpenFiles": [
+    "content/bibles/Co1-CUV.md",
+    "public/categories/无章节圣经/index.xml",
+    "public/categories/无章节圣经/page/1/index.html",
+    "public/categories/无章节圣经/page/1",
+    "public/categories/无章节圣经/page",
+    "public/categories/无章节圣经/index.html",
+    "public/categories/无章节圣经",
     "ob_templates/hugo-frontmatter.md",
     "content/docs/romans16byzaneyao.md",
     "content/docs/romans15byzaneyao.md",
     "content/docs/knowlifebygospel.md",
     "content/docs/1Corinthians1byzaneyao.md",
-    "content/bibles/Co1-CUV.md",
     "public/mv",
     "public/index.xml",
     "public/categories/哥林多前书导读/page/1/index.html",
     "public/tags/马太福音/page/1/index.html",
-    "public/tags/保罗书信/page/1/index.html",
-    "public/docs/2024/10/romans15byzaneyao/index.html",
-    "public/docs/2017/10/knowlifebygospel/index.html",
-    "public/docs/2024/11/romans16byzaneyao/index.html",
-    "public/docs/2024/11/1corinthians1byzaneyao/index.html",
-    "public/categories/转载/page/1/index.html",
     "public/imgs/icons/bible.png",
     "public/imgs/icons/bible_32x32.png",
     "public/imgs/icons/bible_16x16.png",
