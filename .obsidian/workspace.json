@@ -11,10 +11,14 @@
             "id": "6cbc202494950d7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/romans16byzaneyao.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "romans16byzaneyao"
             }
           }
         ]
@@ -157,15 +161,15 @@
   },
   "active": "6cbc202494950d7e",
   "lastOpenFiles": [
+    "content/docs/romans15byzaneyao.md",
+    "content/docs/1Corinthians1byzaneyao.md",
     "ob_templates/hugo-frontmatter.md",
     "archetypes/default.md",
     "archetypes/post.md",
     "content/bibles/Co1-CUV.md",
     "content/bibles",
     "content/docs/romans16byzaneyao.md",
-    "content/docs/romans15byzaneyao.md",
     "content/docs/knowlifebygospel.md",
-    "content/docs/1Corinthians1byzaneyao.md",
     "content/tag.md",
     "public/categories/无章节/index.xml",
     "public/categories/无章节/page/1/index.html",

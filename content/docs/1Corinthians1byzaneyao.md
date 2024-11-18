@@ -1,5 +1,5 @@
 ---
-title: 1Corinthians1byzaneyao
+title: 哥林多前书-1章导读
 date: 2024-11-18T21:03:14+08:00
 tags:
   - 保罗书信
