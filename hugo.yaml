@@ -35,7 +35,7 @@ permalinks:
   # posts: /posts/:slug/  # 您可以根据需求修改路径格式
   posts: /posts/:year/:month/:filename/  # 设置 blog 内容的路径格式
   docs: /docs/:year/:month/:filename/  # 设置 blog 内容的路径格式
-  songs: /songs/:year/:month/:filename/  # 设置 songs 内容的路径格式
+  bibles: /bibles/:year/:month/:filename/  # 设置 songs 内容的路径格式
 
 # 网站压缩配置
 minify:
@@ -58,6 +58,7 @@ params:
   mainSections:
   - posts
   - songs
+  - bibles
   - docs
 
   # 默认网站标题，通常用于页面的 meta 标记等
@@ -80,7 +81,7 @@ params:
   images: ["<link or path of image for opengraph, twitter-cards>"]
 
   # 自定义日期格式化方式
-  DateFormat: "2006年1月3日"
+  DateFormat: "2006年1月2日"
 
   # 默认主题模式（暗黑 | 日光），'auto' 表示根据系统主题自动切换
   defaultTheme: auto  # 可选: 'dark', 'light', 'auto'
@@ -170,9 +171,9 @@ params:
     buttons:
       - name: 随笔    # 按钮名称
         url: posts    # 按钮链接
-      - name: 灵歌
-        url: songs
-      - name: 经文导读
+      - name: 大纲
+        url: bibles
+      - name: 导读
         url: docs
 
   # 首页显示信息
