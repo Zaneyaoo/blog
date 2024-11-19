@@ -189,6 +189,21 @@ document.addEventListener("DOMContentLoaded", function() {
         el.appendChild(video);
       }
     }
+
+    // 替换图片标签
+    if (el.textContent.includes('![[static/imgs/')) {
+      const match = el.textContent.match(/!\[\[static\/imgs\/(.*?)\]\]/);
+      if (match && match[1]) {
+        const imageFileName = match[1];
+        const img = document.createElement('img');
+        img.src = `/imgs/${imageFileName}`;
+        img.alt = imageFileName; // 可选，可以根据需要修改
+        img.style.width = '100%'; // 可根据需要调整样式
+
+        el.innerHTML = el.innerHTML.replace(match[0], '');
+        el.appendChild(img);
+      }
+    }
   });
 });
 </script>
