@@ -10,7 +10,6 @@ categories:
 draft: false
 showToc: true
 TocOpen: true
-author: 陈彰耀传道
 ---
 ### 论圣徒之身份：在主里等候
 **关键词：** #蒙召作圣徒的 #等候耶稣基督的日子

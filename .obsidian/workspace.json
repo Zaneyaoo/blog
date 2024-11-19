@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "68c98381d7cee5fb",
+        "id": "cede4b8307cbf34d",
         "type": "tabs",
         "children": [
           {
-            "id": "8370c49b2cb053e4",
+            "id": "e5e97ccf6e8daa78",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/1Corinthians1byzaneyao.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "1Corinthians1byzaneyao"
             }
           }
         ]
@@ -152,12 +156,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "templates:插入模板": false
+      "templates:插入模板": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "8370c49b2cb053e4",
+  "active": "e5e97ccf6e8daa78",
   "lastOpenFiles": [
     "content/bibles/Co1-CUV.md",
+    "content/docs/1Corinthians1byzaneyao.md",
+    "static/Pasted image 20241119144128.png",
+    "content/guitar/GuitarTutorial/Lesson 0.md",
     "public/categories/无章节圣经/index.xml",
     "public/categories/无章节圣经/page/1/index.html",
     "public/categories/无章节圣经/page/1",
@@ -168,7 +176,6 @@
     "content/docs/romans16byzaneyao.md",
     "content/docs/romans15byzaneyao.md",
     "content/docs/knowlifebygospel.md",
-    "content/docs/1Corinthians1byzaneyao.md",
     "public/mv",
     "public/index.xml",
     "public/categories/哥林多前书导读/page/1/index.html",
@@ -182,11 +189,9 @@
     "public/imgs/20241115004034.png",
     "public/imgs/20241115002739.png",
     "public/imgs/20241115003453.png",
-    "public/imgs/20241115002417.png",
     "archetypes/default.md",
     "archetypes/post.md",
     "content/tag.md",
-    "content/guitar/GuitarTutorial/Lesson 0.md",
     "content/guitar/GuitarTutorial/Lesson 1.md",
     "content/docs/罗马书15章导读.md",
     "content/docs/罗马书16章导读.md",
