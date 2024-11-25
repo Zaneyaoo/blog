@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/1Corinthians1byzaneyao.md",
+                "file": "content/docs/2Corinthians1byzaneyao.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1Corinthians1byzaneyao"
+              "title": "2Corinthians1byzaneyao"
             }
           }
         ]
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/docs/2Corinthians1byzaneyao.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向連結"
+              "title": "2Corinthians1byzaneyao 的反向链接列表"
             }
           },
           {
@@ -136,17 +137,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "content/docs/2Corinthians1byzaneyao.md"
+              },
               "icon": "lucide-list",
-              "title": "大綱"
+              "title": "2Corinthians1byzaneyao 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,19 +163,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8989418c4250271c",
+  "active": "e5e97ccf6e8daa78",
   "lastOpenFiles": [
     "content/docs/1Corinthians1byzaneyao.md",
-    "public/archives/index.html",
-    "public/archives",
-    "public/mv",
-    "public/search/index.html",
-    "public/search",
-    "public/assets/js/search.da71673a24dc5ac72856b18b294b6868e74f0386dd344a4d36df8c9782d4682b.js",
-    "public/assets/js",
-    "public/tags/马太福音/page/1/index.html",
-    "public/tags/保罗书信/page/1/index.html",
-    "public/tags/马太福音/page/1",
+    "content/docs/2Corinthians1byzaneyao.md",
+    "static/imgs/Pasted image 20241126001354.png",
+    "public/tags/敬拜乐队/index.xml",
+    "public/tags/吉他/index.xml",
+    "public/tags/贝斯/index.xml",
+    "public/categories/实用吉他教程含贝斯/index.xml",
+    "public/tags/贝斯/page/1/index.html",
+    "public/tags/贝斯/page/1",
+    "public/tags/贝斯/page",
+    "public/tags/吉他/page/1/index.html",
+    "public/tags/吉他/page/1",
+    "public/tags/吉他/page",
+    "content/bibles/Co1-CUV.md",
+    "content/docs/knowlifebygospel.md",
     "public/imgs/u=3598647971,2395166889&fm=253&fmt=auto&app=138&f=JPEG.webp",
     "public/imgs/u=2601737773,188904250&fm=253&fmt=auto&app=138&f=JPEG.webp",
     "public/imgs/icons/bible_32x32.png",
@@ -182,13 +189,10 @@
     "public/imgs/20241115003453.png",
     "public/imgs/20241115002739.png",
     "public/imgs/avatar.jpg",
-    "public/imgs/20241115004034.png",
-    "content/bibles/Co1-CUV.md",
     "content/guitar/GuitarTutorial/Lesson 0.md",
     "ob_templates/hugo-frontmatter.md",
     "content/docs/romans16byzaneyao.md",
     "content/docs/romans15byzaneyao.md",
-    "content/docs/knowlifebygospel.md",
     "archetypes/default.md",
     "archetypes/post.md",
     "content/tag.md",
