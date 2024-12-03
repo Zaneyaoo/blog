@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/2Corinthians1byzaneyao.md",
+                "file": "content/docs/3Corinthians1byzaneyao.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2Corinthians1byzaneyao"
+              "title": "3Corinthians1byzaneyao"
             }
           }
         ]
@@ -138,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/docs/2Corinthians1byzaneyao.md"
+                "file": "content/docs/3Corinthians1byzaneyao.md"
               },
               "icon": "lucide-list",
-              "title": "2Corinthians1byzaneyao 的大纲"
+              "title": "3Corinthians1byzaneyao 的大纲"
             }
           }
         ],
@@ -165,8 +165,10 @@
   },
   "active": "e5e97ccf6e8daa78",
   "lastOpenFiles": [
-    "content/docs/1Corinthians1byzaneyao.md",
+    "content/bibles/Co1-CUV.md",
+    "content/docs/3Corinthians1byzaneyao.md",
     "content/docs/2Corinthians1byzaneyao.md",
+    "content/docs/1Corinthians1byzaneyao.md",
     "static/imgs/Pasted image 20241126001354.png",
     "public/tags/敬拜乐队/index.xml",
     "public/tags/吉他/index.xml",
@@ -178,7 +180,6 @@
     "public/tags/吉他/page/1/index.html",
     "public/tags/吉他/page/1",
     "public/tags/吉他/page",
-    "content/bibles/Co1-CUV.md",
     "content/docs/knowlifebygospel.md",
     "public/imgs/u=3598647971,2395166889&fm=253&fmt=auto&app=138&f=JPEG.webp",
     "public/imgs/u=2601737773,188904250&fm=253&fmt=auto&app=138&f=JPEG.webp",
