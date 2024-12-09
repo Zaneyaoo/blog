@@ -1,0 +1,11 @@
+/* 强制文本自动换行 */
+.container, .content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* 代码块强制换行 */
+code, pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
